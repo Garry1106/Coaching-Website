@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Stock Market Trading | 60-Day Coaching Program</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body data-scroll-container>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="2" y="2" width="28" height="28" rx="4" fill="#b8860b" />
+            <path
+              d="M8 20L12 16L16 18L20 14L24 16"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <circle cx="12" cy="16" r="2" fill="white" />
+            <circle cx="16" cy="18" r="2" fill="white" />
+            <circle cx="20" cy="14" r="2" fill="white" />
+            <rect
+              x="6"
+              y="22"
+              width="20"
+              height="4"
+              rx="1"
+              fill="white"
+              opacity="0.3"
+            />
+          </svg>
+          <span>StockMaster Pro</span>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link" data-scroll-to>Home</a></li>
+          <li><a href="#about" class="nav-link" data-scroll-to>About</a></li>
+          <li><a href="#team" class="nav-link" data-scroll-to>Our Team</a></li>
+          <li>
+            <a href="#courses" class="nav-link" data-scroll-to>Courses</a>
+          </li>
+          <li>
+            <a href="#testimonials" class="nav-link" data-scroll-to>Reviews</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-scroll-to>Contact</a>
+          </li>
+        </ul>
+        <button class="mobile-menu-toggle" id="mobile-toggle">☰</button>
+      </div>
+    </nav>
+
+    <!-- <section class="hero" id="home" data-scroll-section>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="hero-text" data-scroll data-scroll-speed="1">
+                    <h1>Master the Stock Market in 60 Days</h1>
+                    <p>Learn trading from industry experts with proven results. Join thousands of successful traders who transformed their financial future.</p>
+                    <a href="#demo-cta" class="btn btn-primary" data-scroll-to>Join Now</a>
+                </div>
+                <div class="hero-visual" data-scroll data-scroll-speed="2">
+                    <div class="chart-container">
+                        <svg width="300" height="200" viewBox="0 0 300 200">
+                            <defs>
+                                <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#b8860b;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#b8860b;stop-opacity:0.1" />
+                                </linearGradient>
+                            </defs>
+                            <path class="chart-line" d="M20,180 L60,160 L100,140 L140,120 L180,100 L220,80 L260,60" />
+                            <path d="M20,180 L60,160 L100,140 L140,120 L180,100 L220,80 L260,60 L260,200 L20,200 Z" fill="url(#chartGradient)" opacity="0.5"/>
+                            
+                            <g class="floating-icon">
+                                <circle cx="80" cy="30" r="15" fill="#4d4d4d" opacity="0.8"/>
+                                <text x="80" y="35" text-anchor="middle" fill="white" font-size="12">$</text>
+                            </g>
+                            <g class="floating-icon">
+                                <circle cx="200" cy="40" r="12" fill="#b8860b" opacity="0.8"/>
+                                <text x="200" y="45" text-anchor="middle" fill="white" font-size="10">↗</text>
+                            </g>
+                            <g class="floating-icon">
+                                <circle cx="250" cy="25" r="10" fill="#a5780a" opacity="0.8"/>
+                                <text x="250" y="30" text-anchor="middle" fill="white" font-size="8">%</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="hero" id="home" data-scroll-section>
+      <div class="container">
+        <div class="hero-content fade-in">
+          <div class="hero-text" data-scroll data-scroll-speed="1">
+            <h1>Build Your Stock Market Skills with Expert Guidance</h1>
+            <p>
+              Learn proven trading strategies from seasoned market
+              professionals. Gain the knowledge, tools, and confidence to make
+              smarter investment decisions.
+            </p>
+            <a href="#demo-cta" class="btn btn-primary" data-scroll-to>
+              Join Now
+            </a>
+          </div>
+          <div class="hero-visual" data-scroll data-scroll-speed="2">
+            <div class="chart-container">
+              <svg
+                width="450"
+                height="300"
+                viewBox="0 0 300 200"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient
+                    id="greenGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="0%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #4caf50; stop-opacity: 0.8"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #4caf50; stop-opacity: 0.2"
+                    />
+                  </linearGradient>
+                  <linearGradient
+                    id="redGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="0%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #f44336; stop-opacity: 0.8"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #f44336; stop-opacity: 0.2"
+                    />
+                  </linearGradient>
+                </defs>
+                <rect
+                  x="20"
+                  y="100"
+                  width="10"
+                  height="60"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="25"
+                  y1="80"
+                  x2="25"
+                  y2="160"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+                <rect
+                  x="50"
+                  y="80"
+                  width="10"
+                  height="60"
+                  fill="url(#redGradient)"
+                />
+                <line
+                  x1="55"
+                  y1="60"
+                  x2="55"
+                  y2="140"
+                  stroke="#F44336"
+                  stroke-width="1"
+                />
+                <rect
+                  x="80"
+                  y="120"
+                  width="10"
+                  height="50"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="85"
+                  y1="100"
+                  x2="85"
+                  y2="170"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+                <rect
+                  x="110"
+                  y="70"
+                  width="10"
+                  height="70"
+                  fill="url(#redGradient)"
+                />
+                <line
+                  x1="115"
+                  y1="50"
+                  x2="115"
+                  y2="140"
+                  stroke="#F44336"
+                  stroke-width="1"
+                />
+                <rect
+                  x="140"
+                  y="130"
+                  width="10"
+                  height="40"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="145"
+                  y1="110"
+                  x2="145"
+                  y2="170"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+                <rect
+                  x="170"
+                  y="100"
+                  width="10"
+                  height="70"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="175"
+                  y1="80"
+                  x2="175"
+                  y2="170"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+                <rect
+                  x="200"
+                  y="90"
+                  width="10"
+                  height="60"
+                  fill="url(#redGradient)"
+                />
+                <line
+                  x1="205"
+                  y1="70"
+                  x2="205"
+                  y2="150"
+                  stroke="#F44336"
+                  stroke-width="1"
+                />
+                <rect
+                  x="230"
+                  y="110"
+                  width="10"
+                  height="60"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="235"
+                  y1="90"
+                  x2="235"
+                  y2="170"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+                <rect
+                  x="260"
+                  y="90"
+                  width="10"
+                  height="80"
+                  fill="url(#greenGradient)"
+                />
+                <line
+                  x1="265"
+                  y1="70"
+                  x2="265"
+                  y2="170"
+                  stroke="#4CAF50"
+                  stroke-width="1"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about" data-scroll-section>
+      <div class="container">
+        <div class="about-content">
+          <div
+            class="about-text slide-in-left"
+            data-scroll
+            data-scroll-speed="1"
+          >
+            <h2>About Our Coaching</h2>
+            <p>
+              With over 15 years of experience in the financial markets, our
+              expert-led coaching program has helped thousands of individuals
+              master the art of stock trading. We combine theoretical knowledge
+              with practical, real-time market experience.
+            </p>
+            <p>
+              Our mission is to democratize financial education and empower
+              individuals to take control of their financial destiny through
+              smart trading strategies and risk management.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-number">5000+</div>
+                <div class="stat-label">Students Trained</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">87%</div>
+                <div class="stat-label">Success Rate</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="about-visual slide-in-right"
+            data-scroll
+            data-scroll-speed="2"
+          >
+            <svg width="400" height="300" viewBox="0 0 400 300">
+              <defs>
+                <linearGradient
+                  id="aboutGradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #b8860b; stop-opacity: 0.8"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #4d4d4d; stop-opacity: 0.8"
+                  />
+                </linearGradient>
+              </defs>
+              <rect
+                x="100"
+                y="100"
+                width="200"
+                height="120"
+                rx="10"
+                fill="#2d2d2d"
+                stroke="#b8860b"
+                stroke-width="2"
+              />
+              <rect
+                x="110"
+                y="110"
+                width="180"
+                height="100"
+                rx="5"
+                fill="#1A1A1A"
+              />
+
+              <path
+                d="M120,180 L140,170 L160,160 L180,150 L200,140 L220,130 L240,120 L260,110 L280,120"
+                stroke="#b8860b"
+                stroke-width="3"
+                fill="none"
+              />
+
+              <rect x="130" y="160" width="3" height="20" fill="#32cd32" />
+              <rect x="150" y="150" width="3" height="25" fill="#ff4500" />
+              <rect x="170" y="140" width="3" height="30" fill="#32cd32" />
+              <rect x="190" y="130" width="3" height="35" fill="#32cd32" />
+              <rect x="210" y="125" width="3" height="40" fill="#ff4500" />
+              <rect x="230" y="115" width="3" height="45" fill="#32cd32" />
+              <rect x="250" y="120" width="3" height="40" fill="#ff4500" />
+              <rect
+                x="185"
+                y="95"
+                width="30"
+                height="35"
+                rx="15"
+                fill="url(#aboutGradient)"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section" id="team" data-scroll-section>
+  <div class="container">
+    <h2 class="section-title fade-in">Meet Our Expert Team</h2>
+    <p class="section-subtitle fade-in">
+      Our mentors are seasoned industry leaders dedicated to fostering your growth and success.
+    </p>
+
+    <div class="team-carousel-wrapper">
+      <button class="carousel-nav prev-btn" aria-label="Previous member">
+        &#10094;
+      </button>
+
+      <div class="team-carousel fade-in">
+        <div class="team-member">
+          <div class="member-photo-container">
+            <img src="./gaurav.png" alt="Photo of Alex Johnson, CEO & Founder" />
+            <div class="member-info-overlay">
+              <div class="member-info-content">
+                <h3>Alex Johnson</h3>
+                <p>CEO & Founder</p>
+                <p class="member-bio">
+                  With over 20 years of experience in scaling tech startups, Alex provides strategic vision and leadership. His passion is turning innovative ideas into market-leading companies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo-container">
+            <img src="./krishna.JPG" alt="Photo of Priya Sharma, Head of Product" />
+            <div class="member-info-overlay">
+              <div class="member-info-content">
+                <h3>Priya Sharma</h3>
+                <p>Head of Product</p>
+                <p class="member-bio">
+                   Priya is a product visionary who excels at the intersection of user needs and business goals. She has launched multiple award-winning digital products.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo-container">
+            <img src="./sunny.JPG" alt="Photo of David Chen, Lead UX Designer" />
+            <div class="member-info-overlay">
+              <div class="member-info-content">
+                <h3>David Chen</h3>
+                <p>Lead UX Designer</p>
+                <p class="member-bio">
+                  David believes that great design is invisible. He crafts seamless and intuitive user experiences that delight users and drive engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo-container">
+            <img src="./mukul.JPG" alt="Photo of Dr. Sofia Rossi, AI Research Lead" />
+            <div class="member-info-overlay">
+              <div class="member-info-content">
+                <h3>Dr. Sofia Rossi</h3>
+                <p>AI Research Lead</p>
+                <p class="member-bio">
+                  Dr. Rossi leads our R&D in artificial intelligence. Her groundbreaking work in machine learning models powers our next-generation platform.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+         <div class="team-member">
+          <div class="member-photo-container">
+            <img src="https://placehold.co/300x400/5e6b3f/ffffff?text=Ben" alt="Photo of Ben Carter, Marketing Director" />
+            <div class="member-info-overlay">
+              <div class="member-info-content">
+                <h3>Ben Carter</h3>
+                <p>Marketing Director</p>
+                <p class="member-bio">
+                 Ben is a data-driven growth hacker. He specializes in creating viral marketing campaigns that build brand identity and capture market share.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <button class="carousel-nav next-btn" aria-label="Next member">
+        &#10095;
+      </button>
+    </div>
+  </div>
+</section>
+
+    <section class="courses section" id="courses" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">Our Courses & Programs</h2>
+        <p class="section-subtitle fade-in">
+          Choose the perfect program to match your trading experience and goals
+        </p>
+
+        <div class="course-grid">
+          <div class="course-card fade-in">
+            <h3>Beginner's Foundation</h3>
+            <div class="course-duration">Duration: 4 Weeks</div>
+            <ul class="course-features">
+              <li>Stock Market Basics</li>
+              <li>Technical Analysis Fundamentals</li>
+              <li>Risk Management Principles</li>
+              <li>Live Trading Sessions</li>
+              <li>Portfolio Building Strategies</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Download Brochure</a>
+          </div>
+
+          <div class="course-card fade-in">
+            <h3>Intermediate Mastery</h3>
+            <div class="course-duration">Duration: 6 Weeks</div>
+            <ul class="course-features">
+              <li>Advanced Chart Patterns</li>
+              <li>Swing Trading Strategies</li>
+              <li>Market Psychology</li>
+              <li>Sector Analysis</li>
+              <li>Real Portfolio Management</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Download Brochure</a>
+          </div>
+
+          <div class="course-card fade-in">
+            <h3>Advanced Pro Trader</h3>
+            <div class="course-duration">Duration: 8 Weeks</div>
+            <ul class="course-features">
+              <li>Day Trading Mastery</li>
+              <li>Algorithmic Trading Basics</li>
+              <li>Advanced Risk Models</li>
+              <li>Options Strategies</li>
+              <li>1-on-1 Mentorship</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Download Brochure</a>
+          </div>
+
+          <div class="course-card fade-in">
+            <h3>Options Trading Specialist</h3>
+            <div class="course-duration">Duration: 5 Weeks</div>
+            <ul class="course-features">
+              <li>Options Fundamentals</li>
+              <li>Greeks & Volatility</li>
+              <li>Spread Strategies</li>
+              <li>Income Generation Techniques</li>
+              <li>Advanced Options Strategies</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Download Brochure</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp section" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">Why Choose Us?</h2>
+        <p class="section-subtitle fade-in">
+          We provide a unique, hands-on learning experience for all our
+          students.
+        </p>
+        <div class="usp-grid">
+          <div class="usp-item fade-in">
+            <div class="usp-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-users"
+                color="white"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3>Expert Mentors</h3>
+            <p>
+              Learn directly from seasoned traders with decades of market
+              experience and a passion for teaching.
+            </p>
+          </div>
+          <div class="usp-item fade-in">
+            <div class="usp-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-dollar-sign"
+                color="white"
+              >
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path
+                  d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                ></path>
+              </svg>
+            </div>
+            <h3>Practical Training</h3>
+            <p>
+              Our program focuses on real-world application with live trading
+              sessions and simulated market environments.
+            </p>
+          </div>
+          <div class="usp-item fade-in">
+            <div class="usp-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-trending-up"
+                color="white"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+            <h3>Lifetime Support</h3>
+            <p>
+              Join a vibrant community of traders and receive ongoing support
+              even after the program concludes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">What Our Students Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card fade-in">
+            <p class="testimonial-content">
+              "This program changed my life! I went from a complete beginner to
+              confidently making profitable trades. The mentorship is
+              invaluable."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">J</div>
+              <div class="author-info">
+                <h4>John Doe</h4>
+                <p>Freelancer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <p class="testimonial-content">
+              "The curriculum is well-structured and easy to follow. The live
+              sessions are a game-changer, providing real-time insights."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div class="author-info">
+                <h4>Alice Smith</h4>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <p class="testimonial-content">
+              "I've tried other courses, but none compare to the personalized
+              attention and practical knowledge I gained here. Highly
+              recommended!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div class="author-info">
+                <h4>Mark Wilson</h4>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results section" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">Our Proven Track Record</h2>
+        <div class="results-grid">
+          <div class="result-item fade-in">
+            <span class="result-number">95%</span>
+            <span class="result-label">Student Satisfaction</span>
+          </div>
+          <div class="result-item fade-in">
+            <span class="result-number">3.5x</span>
+            <span class="result-label">Average Portfolio Growth</span>
+          </div>
+          <div class="result-item fade-in">
+            <span class="result-number">10+</span>
+            <span class="result-label">Trading Strategies</span>
+          </div>
+          <div class="result-item fade-in">
+            <span class="result-number">24/7</span>
+            <span class="result-label">Community Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo-cta section" id="demo-cta" data-scroll-section>
+      <div class="container fade-in">
+        <h2>Ready to Transform Your Finances?</h2>
+        <p>
+          Book a free 15-minute consultation with one of our experts to discuss
+          your goals and find the right program for you.
+        </p>
+        <a href="#contact" class="btn btn-primary1" data-scroll-to
+          >Book My Free Call</a
+        >
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">Flexible Pricing Plans</h2>
+        <div class="pricing-cards">
+          <div class="pricing-card fade-in">
+            <h3>Basic Plan</h3>
+            <p class="price">
+              $99/mo <span class="price-period">or $999/yr</span>
+            </p>
+            <ul class="course-features">
+              <li>Access to all course videos</li>
+              <li>Weekly live Q&A sessions</li>
+              <li>Community forum access</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+          <div class="pricing-card featured fade-in">
+            <h3>Premium Plan</h3>
+            <p class="price">
+              $199/mo <span class="price-period">or $1999/yr</span>
+            </p>
+            <ul class="course-features">
+              <li>Everything in Basic</li>
+              <li>Monthly 1-on-1 mentorship</li>
+              <li>Exclusive advanced strategies</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+          <div class="pricing-card fade-in">
+            <h3>Ultimate Plan</h3>
+            <p class="price">
+              $499/mo <span class="price-period">or $4999/yr</span>
+            </p>
+            <ul class="course-features">
+              <li>Everything in Premium</li>
+              <li>Weekly 1-on-1 mentorship</li>
+              <li>Personalized trading plan</li>
+              <li>Direct access to mentors</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" data-scroll-section>
+      <div class="container">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info slide-in-left">
+            <p>
+              Have questions? We're here to help you get started on your trading
+              journey.
+            </p>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-mail"
+                  color="#0d0d0d"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Email Us</h4>
+                <p>info@stockmasterpro.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-phone"
+                  color="#0d0d0d"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 2.18 15.28 15.28 0 0 0 .9 4.17 2 2 0 0 1-.45 2.15L8.29 11.21a18.23 18.23 0 0 0 6.55 6.55l1.09-1.09a2 2 0 0 1 2.15-.45 15.28 15.28 0 0 0 4.17.9v3a2 2 0 0 1-2.18 2z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-map-pin"
+                  color="#0d0d0d"
+                >
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>123 Financial Tower, New York, NY 10001</p>
+              </div>
+            </div>
+          </div>
+          <div class="map-container slide-in-right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.428416620584!2d-74.0064508846174!3d40.71277687933096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1768b57771%3A0x2a93b4a243d92f7a!2sWall%20St%2C%20New%20York%2C%20NY%2010005%2C%20USA!5e0!3m2!1sen!2sin!4v1628588827464!5m2!1sen!2sin"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" data-scroll-section>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>StockMaster Pro</h3>
+            <p>
+              Empowering traders with knowledge and tools to succeed in the
+              stock market.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" title="Facebook">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-facebook"
+                  color="#e0e0e0"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" class="social-link" title="Twitter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-twitter"
+                  color="#e0e0e0"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" class="social-link" title="LinkedIn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-linkedin"
+                  color="#e0e0e0"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#about" data-scroll-to>About Us</a></li>
+              <li><a href="#courses" data-scroll-to>Our Courses</a></li>
+              <li><a href="#pricing" data-scroll-to>Pricing</a></li>
+              <li><a href="#testimonials" data-scroll-to>Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="mailto:info@stockmasterpro.com"
+                  >info@stockmasterpro.com</a
+                >
+              </li>
+              <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+              <li>123 Financial Tower, NY</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 StockMaster Pro. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
